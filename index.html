@@ -1,3 +1,11 @@
+<!---
+    Project: KalkieDate
+    Description: Get Current Date and set New Date calculated by adding
+                days given by user
+    Date Created: 26-Oct-2022
+    Author: srs404 (Github) | https://srs404.com
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,13 +13,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>KalkieDate</title>
 </head>
 <body>
     <center>
         <div class="dateBox">
             <h3>New Date</h3><hr>
-            <h2 id="dateNew" class="dateToday"></h2>
+            <h2 id="dateNew" class="dateText"></h2>
         </div>
         <hr>
         <div class="middlePart">
@@ -21,10 +29,12 @@
         <hr>
         <div class="dateBox">
             <h3>Today</h3><hr>
-            <h2 id="dateToday" class="dateToday"></h2>
+            <h2 id="dateToday" class="dateText"></h2>
         </div>
     </center>
+    <!-- Day.JS Library -->
     <script src="dayjs.min.js"></script>
+    <!-- Custom JS Scripts -->
     <script src="script.js"></script>
 </body>
 </html>
