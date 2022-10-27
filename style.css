@@ -16,15 +16,17 @@
 
 /* Top & Bottom Divs */
 .dateBox {
-    border: 2px solid black;
-    background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:white;
+    border-radius: 10px;
     padding: 10px;
     margin: 0px;
 }
 
 /* Middle Div Containing Input TextBox */
 .middlePart {
-    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
     padding: 10px;
     background-color:ghostwhite;
 }
