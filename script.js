@@ -17,3 +17,7 @@ document.getElementById("dateNew").innerText = dayjs().format("DD MMM YYYY");
 document.addEventListener("input", function(){
     document.getElementById("dateNew").innerText = dayjs().add(document.getElementById("addDays").value, 'day').format("DD MMM YYYY");
 });
+
+function clearTextBox() {
+    document.getElementById("addDays").value = "";
+}
